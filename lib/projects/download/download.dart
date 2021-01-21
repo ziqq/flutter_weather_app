@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-void main() => runApp(MyFirstFlutterAppWithState());
-
-class MyFirstFlutterAppWithState extends StatefulWidget {
+class DownloadApp extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     return _MyFirstAppState();
   }
 }
 
-class _MyFirstAppState extends State<MyFirstFlutterAppWithState> {
+class _MyFirstAppState extends State<DownloadApp> {
   bool _loading;
   double _progressValue;
 
