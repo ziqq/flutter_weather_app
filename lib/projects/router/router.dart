@@ -13,10 +13,9 @@ class RouterApp extends StatelessWidget {
           case '/':
             return MaterialPageRoute(builder: (context) => FirstScreen());
             break;
-          case '/second':
+          case 'second':
             User user = settings.arguments;
-            return MaterialPageRoute(
-                builder: (context) => SecondScreen(user: user));
+            return MaterialPageRoute(builder: (context) => SecondScreen());
             break;
         }
       },

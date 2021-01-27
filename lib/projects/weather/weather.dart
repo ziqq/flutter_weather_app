@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:test_flutter/constants.dart';
-import 'package:test_flutter/models/Weather.dart';
+import './models/Weather.dart';
 
 class WeatherApp extends StatelessWidget {
   @override
